@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/jaragon5821-commits/crash-courier/issues"
+
+[[mods]]
+modId="crashcourier"
+version="${mod_version}"
+displayName="Crash Courier"
+authors="Chop"
+description='''
+Sends a scrubbed copy of a crash report to the pack owner on the next launch, only if the player opted in.
+Source: https://github.com/jaragon5821-commits/crash-courier
+'''
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.crashcourier]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.crashcourier]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
